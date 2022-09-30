@@ -1,0 +1,17 @@
+{
+    "name": "Sops",
+    "id": "sops",
+    "version": "1.0.0",
+    "description": "Installs the Sops CLI",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v3.7.3"
+            ],
+            "default": "latest",
+            "description": "Select or enter a Sops version. (Available versions here: https://github.com/mozilla/sops/releases)"
+        }
+    }
+}
