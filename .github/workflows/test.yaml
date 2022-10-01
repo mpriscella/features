@@ -12,7 +12,8 @@ jobs:
     strategy:
       matrix:
         features: [
-           "sops"
+          "fastly",
+          "sops"
         ]
         baseImage:
           [
