@@ -6,7 +6,7 @@ set -e
 source dev-container-features-test-lib
 
 # Definition specific tests
-check "version" fastly --version
+check "version" fastly version
 
 # Report result
 reportResults
