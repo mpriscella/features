@@ -1,0 +1,17 @@
+{
+    "name": "Fastly",
+    "id": "fastly",
+    "version": "1.0.0",
+    "description": "Installs the Fastly CLI",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v3.3.0"
+            ],
+            "default": "latest",
+            "description": "Select or enter a Fastly version. (Available versions here: https://github.com/fastly/cli/releases)"
+        }
+    }
+}
