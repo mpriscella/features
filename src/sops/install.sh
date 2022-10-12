@@ -2,7 +2,7 @@
 set -e
 
 if [ "${VERSION}" == "latest" ]; then
-	versionStr=$(curl https://api.github.com/repos/mozilla/sops/releases/latest | jq -r '.name')
+	versionStr=$(curl https://api.github.com/repos/mozilla/sops/releases/latest | jq -r '.tag_name')
 else
 	versionStr=${VERSION}
 fi
