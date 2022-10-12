@@ -1,0 +1,17 @@
+{
+    "name": "Kind",
+    "id": "kind",
+    "version": "1.0.0",
+    "description": "Install Kind",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v0.16.0"
+            ],
+            "default": "latest",
+            "description": "Select or enter a Kind version. (Available versions here: https://github.com/kubernetes-sigs/kind/releases)"
+        }
+    }
+}
