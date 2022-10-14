@@ -3,6 +3,7 @@
     "id": "kind",
     "version": "1.0.0",
     "description": "Install Kind",
+    "documentationURL": "https://github.com/mpriscella/features/tree/main/src/kind",
     "options": {
         "version": {
             "type": "string",
