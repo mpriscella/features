@@ -3,6 +3,7 @@
     "id": "fastly",
     "version": "1.0.0",
     "description": "Installs the Fastly CLI",
+    "documentationURL": "https://github.com/mpriscella/features/tree/main/src/fastly",
     "options": {
         "version": {
             "type": "string",
