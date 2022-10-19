@@ -1,7 +1,7 @@
 {
     "name": "Fastly",
     "id": "fastly",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installs the Fastly CLI",
     "documentationURL": "https://github.com/mpriscella/features/tree/main/src/fastly",
     "options": {
