@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
+if [ -z "${VERSION}" ]; then
+	VERSION=latest
+fi
+
 if [ "${VERSION}" == "latest" ]; then
 	versionStr=$(curl https://api.github.com/repos/mozilla/sops/releases/latest | jq -r '.tag_name')
 else

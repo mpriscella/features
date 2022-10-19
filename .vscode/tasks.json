@@ -6,7 +6,7 @@
 		{
 			"label": "Run Tests",
 			"type": "shell",
-			"command": "devcontainer features -i mcr.microsoft.com/devcontainers/base:ubuntu test .",
+			"command": "devcontainer features -i mcr.microsoft.com/devcontainers/base:ubuntu-22.04 test .",
 			"problemMatcher": []
 		}
 	]

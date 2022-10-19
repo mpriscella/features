@@ -1,0 +1,18 @@
+{
+  "name": "Helm Chart Testing",
+  "id": "helm-chart-testing",
+  "version": "1.0.0",
+  "description": "Installs the Helm Chart Testing tool",
+  "documentationURL": "https://github.com/mpriscella/features/tree/main/src/helm-chart-testing",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest",
+        "v3.7.1"
+      ],
+      "default": "latest",
+      "description": "Select or enter a Chart Testing version. (Available versions here: https://github.com/helm/chart-testing/releases)"
+    }
+  }
+}
