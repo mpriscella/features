@@ -6,7 +6,7 @@ if [ -z "${VERSION}" ]; then
 fi
 
 if [ "${VERSION}" == "latest" ]; then
-	versionStr=$(curl https://api.github.com/repos/mozilla/sops/releases/latest | jq -r '.tag_name')
+	versionStr=$(curl https://api.github.com/repos/getsops/sops/releases/latest | jq -r '.tag_name')
 else
 	versionStr=${VERSION}
 fi
@@ -22,7 +22,7 @@ case "${architecture}" in
 		exit 1
 esac
 
-curl -L "https://github.com/mozilla/sops/releases/download/${versionStr}/sops-${versionStr}.linux.${architectureStr}" \
+curl -L "https://github.com/getsops/sops/releases/download/${versionStr}/sops-${versionStr}.linux.${architectureStr}" \
 	-o /usr/local/bin/sops
 
 chmod +x /usr/local/bin/sops
