@@ -7,9 +7,7 @@ Installs the Helm Chart Testing tool
 
 ```json
 "features": {
-    "ghcr.io/mpriscella/features/helm-chart-testing:1": {
-        "version": "latest"
-    }
+    "ghcr.io/mpriscella/features/helm-chart-testing:1": {}
 }
 ```
 
