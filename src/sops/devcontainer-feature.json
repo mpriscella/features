@@ -1,7 +1,7 @@
 {
     "name": "Sops",
     "id": "sops",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Installs the Sops CLI",
     "documentationURL": "https://github.com/mpriscella/features/tree/main/src/sops",
     "options": {
