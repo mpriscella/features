@@ -7,9 +7,7 @@ Installs the Fastly CLI
 
 ```json
 "features": {
-    "ghcr.io/mpriscella/features/fastly:1": {
-        "version": "latest"
-    }
+    "ghcr.io/mpriscella/features/fastly:1": {}
 }
 ```
 

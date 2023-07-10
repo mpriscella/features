@@ -7,9 +7,7 @@ Installs the Sops CLI
 
 ```json
 "features": {
-    "ghcr.io/mpriscella/features/sops:1": {
-        "version": "latest"
-    }
+    "ghcr.io/mpriscella/features/sops:1": {}
 }
 ```
 

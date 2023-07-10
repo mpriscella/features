@@ -7,9 +7,7 @@ Install Kind
 
 ```json
 "features": {
-    "ghcr.io/mpriscella/features/kind:1": {
-        "version": "latest"
-    }
+    "ghcr.io/mpriscella/features/kind:1": {}
 }
 ```
 
